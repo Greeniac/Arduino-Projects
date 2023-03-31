@@ -8,7 +8,7 @@ Led to pin 2, this led will show the state of the output as 1 = lit, 0 = off.
 "B" Button to pin 4.
 "C" Button to pin 5.
 
-The buttons should output Low (Ground) when pressed and High (5v) when depressed, if you want it to be reverse just edit every "digitalRead(x) == y" and reverse the y so if its 1 make it 0 and if its 0 make it 1.
+The buttons should output Low (Ground) when pressed and High (5v) when depressed.
 The A & B buttons are inputs (YES & NOT will only use the A button because it only needs 1).
 
 The C button is used to switch logic gates.
