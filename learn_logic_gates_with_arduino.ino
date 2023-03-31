@@ -2,7 +2,7 @@
 Beware that this code is very inefficient and im stil pretty much a begginer.
 
 Pins:
-16x2 I2C LCD to your i2c pins, if you dont know your i2c pin you can google it.
+16x2 I2C LCD to your i2c pins, if you dont know your i2c pin you can just google it, and make sure that you have the LiquidCrystal_I2C library installed.
 Led to pin 2, this led will show the state of the output as 1 = lit, 0 = off.
 "A" Button to pin 3.
 "B" Button to pin 4.
